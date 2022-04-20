@@ -16,7 +16,7 @@ class CreateSiteContentTable extends Migration
         Schema::create('sites', function (Blueprint $table) {
             $table->id();
             $table->string('site_name');
-            $table->id('admin_id');
+            $table->string('admin_id');
             $table->timestamp('last_update');
             $table->timestamp('date_created');
             $table->json('content');
