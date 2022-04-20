@@ -76,6 +76,10 @@
             <div class="content">
                 <div class="title m-b-md">
                     Budzy
+                    @auth
+                    {{ Auth::user()->name }}
+                    {{ Auth::user()->id }}
+                    @endauth
                 </div>
 
                
