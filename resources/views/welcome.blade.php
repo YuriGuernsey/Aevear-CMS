@@ -7,17 +7,25 @@
       <h1 class="text-2xl font-bold sm:text-3xl">Happy <?= date('l'); ?></h1>
     </div>
 
-    <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
+    <form method="POST" action="{{ route('login') }}" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
+    @csrf
       <div>
-        <label for="email" class="sr-only">Email</label>
+        <label for="email" class="sr-only">{{ __('E-Mail Address') }}</label>
 
         <div class="relative">
           <input
+          id="email"
             type="email"
-            class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
+            class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm form-control @error('email') is-invalid @enderror"
             placeholder="Enter email"
+            name="email"
+            value="{{ old('email') }}" required autocomplete="email" autofocus
           />
-
+          @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
           <span class="absolute inset-y-0 inline-flex items-center right-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,14 +46,20 @@
       </div>
 
       <div>
-        <label for="password" class="sr-only">Password</label>
+        <label for="password" class="sr-only">{{ __('Password') }}</label>
         <div class="relative">
           <input
+          id="password"
             type="password"
-            class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
+            class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm form-control @error('password') is-invalid @enderror"
             placeholder="Enter password"
+            name="password" required autocomplete="current-password"
           />
-
+          @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
           <span class="absolute inset-y-0 inline-flex items-center right-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,6 +83,21 @@
             </svg>
           </span>
         </div>
+      </div>
+      
+      <div class="flex items-center justify-between">
+        @if (Route::has('password.request'))
+          <a class="btn btn-link" href="{{ route('password.request') }}">
+              {{ __('Forgot Your Password?') }}
+            </a>
+        @endif
+
+        <button
+          type="submit"
+          class="inline-block px-5 py-3 ml-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
+        >
+        {{ __('Login') }}
+        </button>
       </div>
     </form>
   </div>
