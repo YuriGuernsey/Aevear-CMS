@@ -111,6 +111,8 @@
     />
   </div>
 </section>
+<footer style="font-size: 20px;position: fixed;bottom: 10px;left: 20px;color: rgb(0 0 0 / 65%);font-weight: bold;">Powered by <a href="https://aevear.com" style="color: #939393;">Aevear</a></footer>
+
 @else
      <script>
          document.location.replace('/home');
