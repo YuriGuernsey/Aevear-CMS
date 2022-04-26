@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+@guest
 <section class="relative flex flex-wrap lg:h-screen lg:items-center">
   <div class="w-full px-4 py-12 lg:w-1/2 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
     <div class="max-w-lg mx-auto text-left">
@@ -110,4 +111,9 @@
     />
   </div>
 </section>
+@else
+     <script>
+         document.location.replace('/home');
+     </script>                 
+@endguest
 @endsection
