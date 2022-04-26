@@ -1,14 +1,10 @@
 @extends('layouts.app')
+
 @section('content')
 <section class="relative flex flex-wrap lg:h-screen lg:items-center">
   <div class="w-full px-4 py-12 lg:w-1/2 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
-    <div class="max-w-lg mx-auto text-center">
-      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
-
-      <p class="mt-4 text-gray-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
-        eaque error neque ipsa culpa autem, at itaque nostrum!
-      </p>
+    <div class="max-w-lg mx-auto text-left">
+      <h1 class="text-2xl font-bold sm:text-3xl">Happy <?= date('l'); ?></h1>
     </div>
 
     <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
@@ -73,20 +69,6 @@
             </svg>
           </span>
         </div>
-      </div>
-
-      <div class="flex items-center justify-between">
-        <p class="text-sm text-gray-500">
-          No account?
-          <a class="underline" href="">Sign up</a>
-        </p>
-
-        <button
-          type="submit"
-          class="inline-block px-5 py-3 ml-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
-        >
-          Sign in
-        </button>
       </div>
     </form>
   </div>
