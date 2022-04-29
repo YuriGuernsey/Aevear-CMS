@@ -8,7 +8,7 @@
       <h1 class="text-2xl font-bold sm:text-3xl">Happy <?= date('l'); ?></h1>
     </div>
 
-    <form method="POST" action="{{ route('login') }}" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
+    <form method="POST" action="{{ route('login') }}" class="max-w-md mx-auto mt-8 mb-0 space-y-4" autocomplete="off">
     @csrf
     @csrf_field() 
       <div>
