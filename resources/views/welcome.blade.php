@@ -10,7 +10,6 @@
 
     <form method="POST" action="{{ route('login') }}" class="max-w-md mx-auto mt-8 mb-0 space-y-4" autocomplete="off">
     @csrf
-    @csrf_field() 
       <div>
         <label for="email" class="sr-only">{{ __('E-Mail Address') }}</label>
 
