@@ -165,25 +165,23 @@
   }
   
   .hero {
-  
-       width: 100%;
-      min-height: 350px;
-      background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80) #000;
-      background-position: 50vw -190px;
-      background-size: 65% auto;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-blend-mode: luminosity;
+    width: 100%;
+    min-height: 500px;
+    background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80) #000;
+    background-position: center right;
+    background-size: 65% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-blend-mode: luminosity;
   }
   
   .info {
-    
-          width: 50%;
-      background: white;
-      margin: 0;
-      height: 350px;
-      display: grid;
-      place-content: center;
+    width: 41%;
+    background: white;
+    margin: 0;
+    height: 500px;
+    display: grid;
+    place-content: center;
     position: relative;
     z-index: 2;
   }
