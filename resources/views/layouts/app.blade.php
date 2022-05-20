@@ -6,7 +6,31 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Aevear CMS') }}</title>
+    <!-- Primary Meta Tags -->
+<title>Aevear - Guernsey Digital Agency</title>
+<meta name="title" content="Aevear - Guernsey Digital Agency">
+<meta name="description" content="Aevear is the people's agency. 
+Get performance-driven and beautiful
+Websites, Mobile Applications, Videos, Google Sheets, and more all for half the cost with our modular and customisable templates.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aevear.com/">
+<meta property="og:title" content="Aevear - Guernsey Digital Agency">
+<meta property="og:description" content="Aevear is the people's agency. 
+Get performance-driven and beautiful
+Websites, Mobile Applications, Videos, Google Sheets, and more all for half the cost with our modular and customisable templates.">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://aevear.com/">
+<meta property="twitter:title" content="Aevear - Guernsey Digital Agency">
+<meta property="twitter:description" content="Aevear is the people's agency. 
+Get performance-driven and beautiful
+Websites, Mobile Applications, Videos, Google Sheets, and more all for half the cost with our modular and customisable templates.">
+<meta property="twitter:image" content="">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
