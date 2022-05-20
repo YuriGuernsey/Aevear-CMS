@@ -115,7 +115,7 @@
 
 @else
      <script>
-         document.location.replace('/home');
+         document.location.replace('/admin-login');
      </script>                 
 @endguest
 @endsection

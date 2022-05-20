@@ -25,4 +25,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/admin-login', function () {
+    return view('cmslogin');
+});
+
 
