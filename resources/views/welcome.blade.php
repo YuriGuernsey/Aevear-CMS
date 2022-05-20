@@ -2,24 +2,6 @@
 
 @section('content')
 
-<div id="loader" class='loading'>
-	<div class='loading-text'>
-		<h1>AEVEAR</h1>
-		<span class="loading-text-words">L</span>
-		<span class="loading-text-words">O</span>
-		<span class="loading-text-words">A</span>
-		<span class="loading-text-words">D</span>
-		<span class="loading-text-words">I</span>
-		<span class="loading-text-words">N</span>
-		<span class="loading-text-words">G</span>
-		
-	</div>
-	<div class='progress'>
-		<div style="width:0%;"</div>
-	</div>
-</div>
-
-
 <header>
 <script async src="https://cdn.splitbee.io/sb.js"></script>	<ul>
 		<li><a href='/'>Home</a></li>
@@ -33,39 +15,40 @@
 	</ul>
 </header>
 <div class='hero'>
-<div class='info'>
-<!--<h2>
-	The People's Digital Agency
-  <!--<a href="" class="typewrite" data-period="2000" data-type='[ "Web Development", "App Development", "Video Production", "App/Web Design" ]'>
-    <span class="wrap"></span>
-  </a>
-</h1>-->
-	<h2>
- Get performance-driven and beautiful <a href="/services">
-  <div class="mask">
-      <span data-show>Websites</span>
-    <span>Mobile Applications</span>
-    <span>Videos</span>
-    <span>Google Sheets</span>
-  </div>
-		</a>
-		for half the cost.
-</h2>
+  <div class='info'>
+    <h2>Get performance-driven and beautiful <a href="/services">
+      <div class="mask">
+          <span data-show>Websites</span>
+        <span>Mobile Applications</span>
+        <span>Videos</span>
+        <span>Google Sheets</span>
+      </div>
+        </a>
+        for half the cost.
+    </h2>
 
-<!--<p class='sub-heading'>Get performance-driven and beautiful <a href="/services" class="typewrite" data-period="4000" data-type='[ "Websites", "Mobile Applications", "Videos", "Google Sheets", "Automation Jobs", "Desktop Apps", "Web Apps"]'>
-    <span class="wrap"></span>
-  </a>, for half the cost.</p>-->
-<!--<p class='sub-heading'>Get performance-driven and beautiful <a href="/services" class="typewrite" data-period="4000" data-type='[ "Websites", "Mobile Applications", "Videos", "Google Sheets", "Automation Jobs", "Desktop Apps", "Web Apps"]'>
-    <span class="wrap"></span>
-  </a>, for half the cost.</p>-->
-<div class='ctaContainer'>
-		<button class='cta2'>Select Service</button><button class='cta'>Look At Templates</button>
+    <div class='ctaContainer'>
+        <button class='cta2'>Select Service</button><button class='cta'>Look At Templates</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="loader" class='loading'>
+  <div class='loading-text'>
+		<h1>AEVEAR</h1>
+		<span class="loading-text-words">L</span>
+		<span class="loading-text-words">O</span>
+		<span class="loading-text-words">A</span>
+		<span class="loading-text-words">D</span>
+		<span class="loading-text-words">I</span>
+		<span class="loading-text-words">N</span>
+		<span class="loading-text-words">G</span>
+	</div>
+	<div class='progress'>
+		<div style="width:0%;"</div>
 	</div>
 </div>
-</div>
-<div class='Work'>
-	<p>Want to see what our looks like?</p><button class='cta'>Look At Templates</button>
-	</div>
   <style>
   :root {
     --offset: 6px;
