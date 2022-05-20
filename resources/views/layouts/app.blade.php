@@ -55,5 +55,19 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
             @yield('content')
         </main>
     </div>
+    <footer>
+    <div class='info'>
+    <div class='logo'>Aevear</div>
+    <div class='desc'>Aevear is the people's agency. 
+    Get performance-driven and beautiful
+    Websites, Mobile Applications, Videos, Google Sheets, and more all for half the cost with our modular and customisable templates.
+    </div>
+    <div class='location></div>
+    </div>
+   
+    <div class='useful_links'></div>
+    <div class='latest'></div>
+    </footer>
+    <div class='copy'>© <?= date("Y");?> AEVEAR. All Rights Reserved.</div>
     </body>
 </html>
