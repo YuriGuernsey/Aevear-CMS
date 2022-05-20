@@ -76,7 +76,10 @@
     z-index: 10;
     padding: 0 20em;
   }
-  
+  header > h1 >a {
+    font-size: 4em;
+    font-weight: bold;
+}
   header li{
     display: inline-block;
     margin: 0 10px;
