@@ -64,15 +64,17 @@
       tab-size: 4;
   }
   header{
-      display: flex;
-      justify-content: space-between;
-      min-height: 80px;
-      align-items: center;
-      background: #fff;
-      box-shadow: 0 5px 10px 10px rgb(0 0 0 / 5%);
-     
-      width: 100%;
-      z-index: 10;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 5%);
+    width: 100%;
+    z-index: 10;
+    padding: 0 20em;
   }
   
   header li{
