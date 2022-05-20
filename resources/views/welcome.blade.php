@@ -74,7 +74,7 @@
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 5%);
     width: 100%;
     z-index: 10;
-    padding: 0 20em;
+    padding: 0 15em;
   }
   header > h1 >a {
     font-size: 4em;
