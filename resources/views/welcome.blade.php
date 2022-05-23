@@ -15,8 +15,8 @@
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
-                  <span class="sr-only">Workflow</span>
-                  <img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                  <span class="sr-only">AEVEAR</span>
+                  <h1 class="h-8 w-auto sm:h-10">AEVEAR</h1>
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -57,7 +57,7 @@
           <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+              <h1 class="h-8 w-auto sm:h-10">AEVEAR</h1>
               </div>
               <div class="-mr-2">
                 <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -86,8 +86,16 @@
       <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline">Data to enrich your</span>
-            <span class="block text-indigo-600 xl:inline">online business</span>
+            <span class="block xl:inline">  Get performance-driven and beautiful</span>
+            <span class="block text-indigo-600 xl:inline">  <a href="/services">
+      <div class="mask">
+          <span data-show>Websites</span>
+        <span>Mobile Applications</span>
+        <span>Videos</span>
+        <span>Google Sheets</span>
+      </div>
+        </a></span>
+        for half the cost.
           </h1>
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -108,7 +116,6 @@
 </div>
 
 </header>
-
 
 
   @endsection
