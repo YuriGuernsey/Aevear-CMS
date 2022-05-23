@@ -93,6 +93,10 @@
                 <span>Mobile Applications</span>
                 <span>Videos</span>
                 <span>Google Sheets</span>
+                <span>Websites</span>
+                <span>Mobile Applications</span>
+                <span>Videos</span>
+                <span>Google Sheets</span>
               </div>
             </span>
         for half the cost.
