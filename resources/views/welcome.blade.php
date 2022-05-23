@@ -208,7 +208,7 @@
       top: -3px;
     transition: width 0.5s ease;
   }
-  
+/*   
   .hero {
     width: 100%;
     min-height: 500px;
@@ -257,7 +257,7 @@
   }
   
   /* CSS */
-  .cta {
+  /* .cta {
     background: #fff;
     backface-visibility: hidden;
     border-radius: .375rem;
@@ -325,7 +325,8 @@
   
   
   /* CSS */
-  .cta2 {
+
+  /* .cta2 {
     background: #fff000;
     backface-visibility: hidden;
     border-radius: .375rem;
@@ -352,9 +353,9 @@
         margin: 0;
       width: fit-content;
       margin-top: 20px;
-  }
+  } */
   
-  .cta2:not(:disabled):hover {
+  /* .cta2:not(:disabled):hover {
     transform: scale(1.05);
   }
   
@@ -396,13 +397,13 @@
     100%{
       opacity: 0;
     }
-  }
+  } */
   
   
-  .subtitle {
+  /* .subtitle {
     font-size: 25px;
   
-  }
+  } */
   
   .mask {
     height: 45px;
@@ -452,127 +453,6 @@
   }
 
 
-#loader h1{
-	text-transform: uppercase;
-	color: #030303;
-	font-family: Roboto,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-	margin: 0;
-	font-size: 8rem;
-}
-
-.loading{
-	position: fixed;
-	top: 0; 
-	left: 0;
-	width:100%;
-	height: 100%;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23030303' fill-opacity='1'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
-    background-color: rgb(255 240 0 / 100%);
-    background-position: bottom right;
-    background-size: 550px;
-    background-blend-mode: soft-light;
-	z-index: 9999;
-}
-
-.loading-text{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right:0; 
-	margin: auto;
-	text-align: center;
-	width: 100%;
-	height: 300px;
-   line-height: 130px;
-}
-
-.loading-text span{
-	display: inline-block;
-	margin: 0 5px;
-	color: #030303;
-	/*font-family: "Quattrocento Sans", sans-serif;*/
-	font-family: Roboto,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-}
-
-.loading-text span:nth-child(2){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 0s infinite linear alternate;
-	animation: blur-text 1.5s 0s infinite linear alternate;
-}
-
-.loading-text span:nth-child(3){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
-	animation: blur-text 1.5s 0.2s infinite linear alternate;
-}
-
-.loading-text span:nth-child(4){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
-	animation: blur-text 1.5s 0.4s infinite linear alternate;
-}
-
-.loading-text span:nth-child(5){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
-	animation: blur-text 1.5s 0.6s infinite linear alternate;
-}
-
-.loading-text span:nth-child(6){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
-	animation: blur-text 1.5s 0.8s infinite linear alternate;
-}
-
-.loading-text span:nth-child(7){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 1s infinite linear alternate;
-	animation: blur-text 1.5s 1s infinite linear alternate;
-}
-
-.loading-text span:nth-child(8){
-	filter: blur(0px);
-	-webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
-	animation: blur-text 1.5s 1.2s infinite linear alternate;
-}
-
-@keyframes blur-text{
-	0%{
-		filter: blur(0px);
-	}
-	100%{
-		filter: blur(4px);
-	}
-}
-@-webkit-keyframes blur-text{
-	0%{
-		filter: blur(0px);
-	}
-	100%{
-		filter: blur(4px);
-	}
-}
-
-.progress{
-	width: 200px;
-	height: 5px;
-	border-radius: 6px;
-	background: rgb(3 3 3 / 40%);
-	position: absolute;
-	left: 0;
-	right: 0;
-	top:60%;
-	margin: auto;
-	margin-top: 20px;
-}
-
-.progress > div{
-	height: 100%;
-	border-radius: 6px;
-	background: rgb(3 3 3 / 60%);
-	transition: width 200ms;
-}
 
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -649,21 +529,7 @@ show.setAttribute('data-up', '')
 next.setAttribute('data-show', '')
 }, 3000)
 
-$("#loader").fadeIn();
 
-var count = 0;
-window.onload = function(){
-	var loadingInterval = setInterval(function() {
-    var $badge = $('.progress > div');
-    count += 1.8;
-    $badge.css('width', count.toFixed(2));
-
-}, 50);
-    setTimeout(function(){
-      $("#loader").fadeOut();
-			clearInterval(loadingInterval);
-    },5000);
-  };
 
 
   </script>
