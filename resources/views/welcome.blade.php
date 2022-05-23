@@ -183,7 +183,13 @@ up.removeAttribute('data-up')
 show.removeAttribute('data-show')
 show.setAttribute('data-up', '')
 
-next.setAttribute('data-show', '')
+if (show.nextElementSibling != null){
+  next.setAttribute('data-show', '');
+}else{
+  next = document.querySelector('span:first-child')
+  next.setAttribute('data-show', '');
+}
+
 }, 3000)
 
 </script>
