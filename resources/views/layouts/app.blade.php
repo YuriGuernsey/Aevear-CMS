@@ -40,7 +40,7 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
     <meta name="theme-color" content="#ffffff">
   <script src="https://cdn.tailwindcss.com"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    <script async src="https://cdn.splitbee.io/sb.js"></script>
     <!-- Fonts -->
            <!-- Fonts -->
            <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
