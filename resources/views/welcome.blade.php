@@ -27,10 +27,18 @@
   <div class="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Let us find your
+      Get performance-driven and beautiful
         <strong class="font-extrabold text-rose-700 sm:block">
-          Forever Home.
+        <a href="/services">
+      <div class="mask">
+          <span data-show>Websites</span>
+        <span>Mobile Applications</span>
+        <span>Videos</span>
+        <span>Google Sheets</span>
+      </div>
+        </a>
         </strong>
+        for half the cost.
       </h1>
 
       <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
@@ -49,7 +57,9 @@
     </div>
   </div>
 </section>
-<div class='hero'>
+
+
+<!-- <div class='hero'>
   <div class='info'>
     <h2>Get performance-driven and beautiful <a href="/services">
       <div class="mask">
@@ -66,7 +76,7 @@
         <button class='cta2'>Select Service</button><button class='cta'>Look At Templates</button>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- 
 <div id="loader" class='loading'>
