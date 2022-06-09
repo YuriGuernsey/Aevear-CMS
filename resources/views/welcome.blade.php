@@ -19,7 +19,7 @@
                   <h1 class="h-8 w-auto sm:h-10">AEVEAR</h1>
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
-                  <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                  <button id='hmb-menu' type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <!-- Heroicon name: outline/menu -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -53,14 +53,14 @@
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         -->
-        <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <div id='menu' class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden hidden">
           <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
               <div>
               <h1 class="h-8 w-auto sm:h-10">AEVEAR</h1>
               </div>
               <div class="-mr-2">
-                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <button id='hmb-close' type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span class="sr-only">Close main menu</span>
                   <!-- Heroicon name: outline/x -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -195,7 +195,15 @@ if (show.nextElementSibling != null){
 }
 
 }, 3000)
+$('button#hmb-menu').on('click',function(){
+  $('#menu').removeClass('hidden');
+      
+  });
 
+  $('button#hmb-close').on('click',function(){
+    $('#menu').addClass('hidden');
+        
+    })
 </script>
 
   @endsection
