@@ -233,7 +233,7 @@ setInterval(function () {
 const show = document.querySelector('.mask span[data-show]')
 let next;
 const show = document.querySelector('.mask span[data-show]')
-show != null ? next = show.nextElementSibling : next = document.querySelector('.mask span:first-child')
+show == null ? next = show.nextElementSibling : next = document.querySelector('.mask span:first-child')
 const up = document.querySelector('span[data-up]')
 if (up) {
 up.removeAttribute('data-up')
