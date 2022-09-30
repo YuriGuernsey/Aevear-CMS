@@ -233,7 +233,7 @@ setInterval(function () {
 const show = document.querySelector('.mask span[data-show]')
 let next;
 
-if(show == null){
+if(show != null){
     next = show.nextElementSibling
 }else{
     var child = document.querySelector('.mask span[data-show]')
