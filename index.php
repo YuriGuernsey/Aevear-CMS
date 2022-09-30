@@ -232,7 +232,7 @@ show.setAttribute('data-up', '')
 if (show.nextElementSibling != null){
   next.setAttribute('data-show', '');
 }else{
-  next = document.querySelector('span:first-child')
+  next = document.querySelector('.mask span:first-child')
   next.setAttribute('data-show', '');
 }
 }, 3000)
