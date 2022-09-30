@@ -232,11 +232,11 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
 setInterval(function () {
 const show = document.querySelector('.mask span[data-show]')
 let next;
-const show = document.querySelector('.mask span[data-show]')
+
 if(show == null){
     next = show.nextElementSibling
 }else{
-    var child =document.querySelector('.mask span[data-show]')
+    var child = document.querySelector('.mask span[data-show]')
 var parent = child.parentNode;
 // The equivalent of parent.children.indexOf(child)
 var index = Array.prototype.indexOf.call(parent.children, child); 
