@@ -216,6 +216,15 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
   .mask span:nth-child(4) {
     background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
   }
+    .mask span:nth-child(5) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
+    .mask span:nth-child(6) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
+    .mask span:nth-child(7) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
   </style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  
