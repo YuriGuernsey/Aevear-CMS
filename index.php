@@ -225,13 +225,16 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
     .mask span:nth-child(7) {
     background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
   }
+    .mask span:nth-child(8) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
   </style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  
 <script>
 setInterval(function () {
 const show = document.querySelector('span[data-show]')
-const next = show.nextElementSibling || document.querySelector('span:first-child')
+const next = show.nextElementSibling || document.querySelector('.mask span:first-child')
 const up = document.querySelector('span[data-up]')
 if (up) {
 up.removeAttribute('data-up')
@@ -241,7 +244,7 @@ show.setAttribute('data-up', '')
 if (show.nextElementSibling != null){
   next.setAttribute('data-show', '');
 }else{
-  next = document.querySelector('.mask span:first-child')
+  next = document.querySelector('.mask span:first-child');
   next.setAttribute('data-show', '');
 }
 }, 3000)
