@@ -66,7 +66,7 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span class="sr-only">AEVEAR</span>
-                  <h1 class="h-8 w-auto sm:h-10"><img src='/images/Blacklogo.svg'></h1>
+                  <h1 class="h-8 w-auto sm:h-10"><img src='/images/Blacklogo.svg' style="max-width: 180px;"></h1>
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button id='hmb-menu' type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -80,15 +80,11 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
               </div>
             </div>
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Work</a>
 
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
+              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Blog</a>
 
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
-
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
-
-              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
+              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Contact</a>
             </div>
           </nav>
         </div>
