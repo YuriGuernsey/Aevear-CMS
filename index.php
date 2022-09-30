@@ -230,8 +230,10 @@ Websites, Mobile Applications, Videos, Google Sheets, and more all for half the 
  
 <script>
 setInterval(function () {
-const show = document.querySelector('span[data-show]')
-const next = show.nextElementSibling || document.querySelector('.mask span:first-child')
+const show = document.querySelector('.mask span[data-show]')
+let next;
+const show = document.querySelector('.mask span[data-show]')
+show != null ? next = show.nextElementSibling : next = document.querySelector('.mask span:first-child')
 const up = document.querySelector('span[data-up]')
 if (up) {
 up.removeAttribute('data-up')
